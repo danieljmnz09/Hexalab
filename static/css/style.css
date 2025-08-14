@@ -1,13 +1,13 @@
 /* Navbar degradado */
 .navbar {
-    background: linear-gradient(90deg, #003973 0%, #E5E5BE 100%);
+    background: linear-gradient(90deg, #3f66e6 0%, #496a8b 100%);
 }
 
 /* Hero con overlay */
 .hero {
     background: url('banner.jpg') center/cover no-repeat;
     position: relative;
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 120px 20px;
 }
@@ -16,7 +16,7 @@
     content: "";
     position: absolute;
     inset: 0;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgb(1, 10, 136);
 }
 
 .hero .content {
